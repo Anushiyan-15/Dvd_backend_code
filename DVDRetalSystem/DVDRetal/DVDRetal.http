@@ -1,0 +1,6 @@
+@DVDRetal_HostAddress = http://localhost:5276
+
+GET {{DVDRetal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
