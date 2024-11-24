@@ -15,6 +15,8 @@ namespace DVDRetal.DataBase
 
         public DbSet<Rent> Rents { get; set; }
 
+        public DbSet<DVD> DVDs { get; set; }
+
 
 
     }

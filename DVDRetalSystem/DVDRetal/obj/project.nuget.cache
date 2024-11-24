@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nv/UNMmHftE=",
+  "dgSpecHash": "eGDN8SirBZ0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
+  "projectFilePath": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrpsy\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mrpsy\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

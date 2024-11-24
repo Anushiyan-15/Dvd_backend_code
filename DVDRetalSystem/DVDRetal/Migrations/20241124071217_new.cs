@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DVDRetal.Migrations
 {
     /// <inheritdoc />
-    public partial class entitychange : Migration
+    public partial class @new : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,7 +31,7 @@ namespace DVDRetal.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DVD",
+                name: "DVDs",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -45,7 +45,7 @@ namespace DVDRetal.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DVD", x => x.Id);
+                    table.PrimaryKey("PK_DVDs", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -70,9 +70,9 @@ namespace DVDRetal.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Rents_DVD_DVDId",
+                        name: "FK_Rents_DVDs_DVDId",
                         column: x => x.DVDId,
-                        principalTable: "DVD",
+                        principalTable: "DVDs",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -98,7 +98,7 @@ namespace DVDRetal.Migrations
                 name: "Customers");
 
             migrationBuilder.DropTable(
-                name: "DVD");
+                name: "DVDs");
         }
     }
 }

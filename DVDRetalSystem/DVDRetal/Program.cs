@@ -13,6 +13,8 @@ namespace DVDRetal
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.WebHost.UseWebRoot("wwwroot");
+
 
             // Add services to the container.
 
@@ -25,6 +27,7 @@ namespace DVDRetal
             builder.Services.AddScoped<ICustomerService,CustomerService>();
             builder.Services.AddScoped<IManagerService,ManagerService>();
             builder.Services.AddScoped<IRentalService,RentalService>();
+
             builder.Services.AddScoped<ICustomerRepository,CustomerRepository>();
             builder.Services.AddScoped<IManagerRepository,ManagerRepository>();
             builder.Services.AddScoped<IRentalRepository,RentalRepository>();
@@ -48,6 +51,8 @@ namespace DVDRetal
             app.UseCors("CORSOpenPolicy");
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
+
 
             app.UseAuthorization();
 

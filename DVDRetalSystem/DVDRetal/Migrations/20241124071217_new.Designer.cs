@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DVDRetal.Migrations
 {
     [DbContext(typeof(DVDContext))]
-    [Migration("20241123100705_entity change")]
-    partial class entitychange
+    [Migration("20241124071217_new")]
+    partial class @new
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -91,7 +91,7 @@ namespace DVDRetal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DVD");
+                    b.ToTable("DVDs");
                 });
 
             modelBuilder.Entity("DVDRetal.Entity.Rent", b =>

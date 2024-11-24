@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\wwwroot\\dvdimages\\0a80c979-3a5f-44ac-a81b-4b38aafa3fe7.jpg",
+      "PackagePath": "staticwebassets\\dvdimages\\0a80c979-3a5f-44ac-a81b-4b38aafa3fe7.jpg"
+    },
+    {
+      "Id": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\wwwroot\\dvdimages\\af839e84-8204-4b09-bb9b-e4603a91174c.jpg",
+      "PackagePath": "staticwebassets\\dvdimages\\af839e84-8204-4b09-bb9b-e4603a91174c.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DVDRetal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DVDRetal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DVDRetal.props",
+      "PackagePath": "build\\DVDRetal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DVDRetal.props",
+      "PackagePath": "buildMultiTargeting\\DVDRetal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DVDRetal.props",
+      "PackagePath": "buildTransitive\\DVDRetal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

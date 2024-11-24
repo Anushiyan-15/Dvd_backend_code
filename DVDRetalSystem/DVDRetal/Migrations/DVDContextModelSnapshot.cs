@@ -88,7 +88,7 @@ namespace DVDRetal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DVD");
+                    b.ToTable("DVDs");
                 });
 
             modelBuilder.Entity("DVDRetal.Entity.Rent", b =>
