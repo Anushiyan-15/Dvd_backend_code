@@ -73,19 +73,11 @@ namespace DVDRetal.Repository
           
 
             // Save the changes to the database
-            _context.Customers.Update(customer);
+            _context.Customers.Remove(customer);
             await _context.SaveChangesAsync();
 
             return customer;
         }
-
-
-
-
-
-
-
-
 
     }
 }

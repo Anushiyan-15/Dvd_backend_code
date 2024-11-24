@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj": {}
+    "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj": {
+    "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
+        "projectUniqueName": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
         "projectName": "DVDRetal",
-        "projectPath": "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
+        "projectPath": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\DVDRetal.csproj",
         "packagesPath": "C:\\Users\\mrpsy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrpsy\\OneDrive\\Desktop\\New folder (2)\\DVDBackendCode\\DVDRetalSystem\\DVDRetal\\obj\\",
+        "outputPath": "D:\\code section\\ms_3 back\\Dvd_backend_code\\DVDRetalSystem\\DVDRetal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
